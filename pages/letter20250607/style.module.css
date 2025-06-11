@@ -1,0 +1,15 @@
+.home {
+  padding: 16px;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.content {
+  white-space: pre-line;
+}
