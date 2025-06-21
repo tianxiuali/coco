@@ -36,6 +36,7 @@ body {
   padding: 4px 8px;
   border-radius: 4px;
   color: #444;
+  font-size: 22px;
 }
 
 .title {
@@ -46,7 +47,7 @@ body {
 
 .rabbit {
   position: absolute;
-  top: 16px;
+  top: 20px;
   right: 16px;
   width: 24px;
   transform: rotate(30deg);

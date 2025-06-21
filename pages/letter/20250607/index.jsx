@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Left from '@/components/icon/left'
 import styles from './style.module.css'
 
 const letter = `
@@ -18,7 +19,9 @@ const letter = `
 export default function Home() {
   return (
     <div className={styles.home}>
-      <Link href="/letter" className="back">← back</Link>
+      <Link href="/letter" className="back">
+        <Left />
+      </Link>
       <p className={styles.content}>{letter}</p>
     </div>
   )

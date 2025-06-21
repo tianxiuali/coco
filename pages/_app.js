@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Component {...pageProps} />
+      <Component {...pageProps} audio={audioRef.current} />
       <img src="/image/rabbit.png" alt="" className={`rabbit ${isPlaying ? 'shaking' : ''}`} onClick={toggleMusic} />
       <audio ref={audioRef} loop>
         <source src="/music/myperson.flac" type="audio/flac" />

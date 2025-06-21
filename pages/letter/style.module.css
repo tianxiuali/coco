@@ -1,5 +1,9 @@
-.title {
-  margin-bottom: 16px;
-  text-align: center;
-  font-size: 24px;
+.letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter img {
+  width: 160px;
 }
